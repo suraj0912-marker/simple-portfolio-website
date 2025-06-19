@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Suraj Behra | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="profile-floating">
+    <img src="Portfolio.jpeg" alt="Suraj Behra Profile Picture" class="profile-pic" />
+    <button id="theme-toggle" title="Toggle Theme">🌓</button>
+  </div>
+
+  <nav class="navbar">
+    <ul>
+      <li><a href="#hero-section" class="nav-link">Home</a></li>
+      <li><a href="#about-section" class="nav-link">About</a></li>
+      <li><a href="#skills-section" class="nav-link">Skills</a></li>
+      <li><a href="#projects-section" class="nav-link">Projects</a></li>
+      <li><a href="#contact-section" class="nav-link">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main class="terminal">
+    <div class="terminal-header">
+      <span class="circle red"></span>
+      <span class="circle yellow"></span>
+      <span class="circle green"></span>
+      <span class="title">suraj-portfolio</span>
+    </div>
+
+    <section class="terminal-body" id="hero-section">
+      <p>> Hello, I'm <span class="name">Suraj Behra</span> <span class="cursor">|</span></p>
+      <p class="project-desc">> Passionate Full Stack Developer | Java & React Enthusiast</p>
+    </section>
+
+    <section class="terminal-body about" id="about-section">
+      <p class="command">about</p>
+      <p class="output-divider">-------------------------------------</p>
+      <p>
+        > I’m a Computer Science student with a strong foundation in Java, web development, and databases.<br />
+        > I love building clean, human-friendly UIs and robust backend systems.<br />
+        > Currently learning React JS and improving my full-stack skills.
+      </p>
+    </section>
+
+    <section class="terminal-body skills" id="skills-section">
+      <p class="command">skills</p>
+      <p class="output-divider">-------------------------------------</p>
+      <div class="skills-grid">
+        <span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span>
+        <span>Java</span><span>JSP</span><span>Servlet</span><span>SQL</span><span>JDBC</span><span>DSA</span>
+      </div>
+    </section>
+
+    <section class="terminal-body projects" id="projects-section">
+      <p class="command">projects</p>
+      <p class="output-divider">-------------------------------------</p>
+
+      <div class="project">
+        <p class="project-title">Event Handling System</p>
+        <p class="project-desc">
+          > A web portal built with JSP, Servlets, and MySQL for college events.
+          Students can register and admins can manage everything efficiently.
+        </p>
+      </div>
+
+      <div class="project">
+        <p class="project-title">Bank Management System</p>
+        <p class="project-desc">
+          > A Java Swing desktop application simulating a banking system, including deposit, withdrawal, and PIN management.
+        </p>
+      </div>
+
+      <div class="project">
+        <p class="project-title">Terminal Portfolio</p>
+        <p class="project-desc">
+          > This personal portfolio mimics a terminal UI, built with modern CSS and JavaScript with responsive design and theme toggling.
+        </p>
+      </div>
+    </section>
+
+    <section class="terminal-body contact" id="contact-section">
+      <p class="command">contact</p>
+      <p class="output-divider">-------------------------------------</p>
+      <p><a href="https://github.com/suraj0912-marker" target="_blank">GitHub</a></p>
+      <p><a href="https://www.linkedin.com/in/surajbehra" target="_blank">LinkedIn</a></p>
+      <p><a href="mailto:sbehra538@gmail.com">Email</a></p>
+    </section>
+
+    <section class="terminal-body footer">
+      <p>> "© 2025 Suraj Behra. Built with ❤️ in VS Code"</p>
+    </section>
+  </main>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
